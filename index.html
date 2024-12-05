@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock-Paper-Scissor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 class="title">Rock-Paper-Scissor</h1>
+    <div class="foralgn">
+        <div class="container">
+            <div class="meimages">
+                <div class="mchoice" style="background-color: rgb(255, 190, 152);" id="rock"><img src="Rockme.png"
+                        alt="My Rock">
+                </div>
+                <div class="mchoice" style="background-color: rgb(240, 90, 126);" id="paper"><img src="Paperme.png"
+                        alt="My Paper">
+                </div>
+                <div class="mchoice" style="background-color: rgb(18, 91, 154);" id="scissor"><img src="scissorme.png"
+                        alt="My scissor">
+                </div>
+            </div>
+            <div class="mysection">
+                <h3> Me </h3>
+                <div class="mychoice">
+                    <img src="Rockme.png" class="Rockm hide">
+                    <img src="Paperme.png" class="Paperm hide">
+                    <img src="scissorme.png" class="Scissorm hide">
+                </div>
+                <div class="ext"></div>
+            </div>
+            <h2>Vs</h2>
+            <div class="compsection">
+                <h3> Computer </h3>
+                <div class="compchoice">
+                    <img src="Rockcomp.png" class="Rockc hide">
+                    <img src="Papercomp.png" class="Paperc hide">
+                    <img src="scissorcomp.png" class="Scissorc hide">
+                </div>
+                <div class="ext"></div>
+            </div>
+            <div class="Compimages">
+                <div class="cchoice" style="background-color: rgb(118, 149, 255);"><img src="Rockcomp.png"
+                        alt="Comp Rock">
+                </div>
+                <div class="cchoice" style="background-color: rgb(157, 189, 255);"><img src="Papercomp.png"
+                        alt="Comp Paper"></div>
+                <div class="cchoice" style="background-color: rgb(255, 215, 196);"><img src="scissorcomp.png"
+                        alt="Comp scissor"></div>
+            </div>
+        </div>
+        <div class="referee">
+            <p class="anouncement">START</p>
+        </div>
+        <div class="divider"></div>
+        <div class="score">
+            <h2 style="color: rgb(88, 27, 145);font-size: 70px;">Score</h2>
+            <div class="names">
+                <div class="me">
+                    <h3>Me</h3>
+                    <p id="myscore">0</p>
+                </div>
+                <div class="divider2"></div>
+                <div class="comp">
+                    <h3>Computer</h3>
+                    <p id="compscore">0</p>
+                </div>
+            </div>
+        </div>
+        <div class="button">Restart</div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
